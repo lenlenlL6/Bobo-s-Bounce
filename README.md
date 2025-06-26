@@ -5,7 +5,7 @@
 
 ## Project Description
 
-A game created using Love2D, which can be modified or added levels through the Tiled software, this game is very basic and can easily be programmed, all assets used are free here: <a href="advhttps://pixelfrog-assets.itch.io/pixel-adventure-1">Free Assets</a>
+A game created using Love2D, which can be modified or added levels through the Tiled software, this game is very basic and can easily be programmed, all assets used are free here: [Free Assets](https://pixelfrog-assets.itch.io/pixel-adventure-1)
 
 ## Key Features
 
