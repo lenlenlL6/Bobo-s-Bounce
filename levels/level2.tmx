@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="25" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="30">
+ <editorsettings>
+  <export target="level2.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="background_color" value="Blue"/>
+ </properties>
+ <tileset firstgid="1" name="tile1" tilewidth="16" tileheight="16" tilecount="242" columns="22">
+  <image source="../assets/Terrain/Terrain (16x16).png" width="352" height="176"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="25" height="20">
+  <data encoding="csv">
+4,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,3221225474,1610612763,
+25,124,125,123,123,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,123,23,
+25,146,147,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,
+25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,
+25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,
+25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,
+25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,
+25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,104,0,0,0,0,23,
+25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,126,0,0,0,0,23,
+25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,101,102,103,148,0,0,0,0,23,
+25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,27,
+25,104,0,0,0,0,0,0,0,0,0,0,0,0,0,23,24,24,24,24,24,24,24,24,24,
+25,126,0,0,0,0,0,0,0,0,0,0,0,0,0,23,24,24,24,24,24,24,24,24,24,
+25,126,0,0,0,0,0,0,0,0,0,0,0,0,0,23,24,24,24,24,24,24,24,24,24,
+25,126,0,0,0,0,0,0,0,0,0,0,0,0,0,23,24,24,24,24,24,24,24,24,24,
+25,126,0,0,0,0,0,0,0,0,0,0,0,0,0,23,24,24,24,24,24,24,24,24,24,
+2684354587,2,2,2,3,0,0,0,0,0,0,0,0,0,0,23,24,24,24,24,24,24,24,24,24,
+24,24,24,24,25,0,0,0,0,0,0,0,0,0,0,23,24,24,24,24,24,24,24,24,24,
+24,24,24,24,25,0,0,0,0,0,0,0,0,0,0,23,24,24,24,24,24,24,24,24,24,
+24,24,24,24,1610612740,2,2,2,2,2,2,2,2,2,2,1073741829,24,24,24,24,24,24,24,24,24
+</data>
+ </layer>
+ <objectgroup id="2" name="Platform" visible="0">
+  <object id="2" x="16" y="256" width="64" height="48"/>
+  <object id="7" x="16" y="176" width="16" height="80"/>
+  <object id="8" x="80" y="304" width="160" height="16"/>
+  <object id="9" x="240" y="160" width="160" height="144"/>
+  <object id="12" x="256" y="144" width="48" height="16"/>
+  <object id="13" x="304" y="112" width="16" height="48"/>
+ </objectgroup>
+ <objectgroup id="3" name="Destination" visible="0">
+  <object id="16" x="352" y="160" width="32"/>
+ </objectgroup>
+ <objectgroup id="4" name="Border" visible="0">
+  <object id="21" x="0" y="0" width="16" height="320"/>
+  <object id="24" x="16" y="0" width="384" height="16"/>
+  <object id="25" x="384" y="16" width="16" height="144"/>
+ </objectgroup>
+ <objectgroup id="5" name="Player" visible="0">
+  <object id="26" x="74.3333" y="146.667">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Obstacle" visible="0"/>
+ <objectgroup id="7" name="Entities" visible="0">
+  <object id="28" x="134.5" y="223.5">
+   <point/>
+  </object>
+  <object id="29" x="201.5" y="181.5">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
