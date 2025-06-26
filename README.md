@@ -1,7 +1,7 @@
-![til](./icon.png)<h1 align="center">Bobo`s Bounce</h1>
+<p align="center"><img src="./icon.png" width="100" alt="til" /><p align="center">Bobo`s Bounce</h1>
 <p align="center"><a href="#project-description">Project Description</a> - <a href="#key-features">Key Features</a> - <a href="#libraries">Libraries</a></p>
 
-![til](./demo.gif)
+<p align="center"><img src="./demo.gif" alt="til" />
 
 ## Project Description
 
